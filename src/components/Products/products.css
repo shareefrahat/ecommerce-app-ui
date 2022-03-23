@@ -1,0 +1,9 @@
+.bg-daraz-primary {
+  background-color: #f55807;
+  color: #fff;
+}
+.addToCart-btn:hover {
+  background-color: #fff;
+  color: #f55807;
+  border: 1px solid #f55807;
+}
