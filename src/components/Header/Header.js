@@ -1,5 +1,5 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 import React from "react";
 import logo from "../../images/logo.png";
 import "./header.css";
@@ -24,7 +24,7 @@ const Header = () => {
           Search
         </button>
       </div>
-      <span className="position-relative mx-5">
+      {/* <span className="position-relative mx-5">
         <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-daraz-primary">
           0
         </span>
@@ -32,7 +32,7 @@ const Header = () => {
           className="fs-3  text-secondary"
           icon={faCartShopping}
         />
-      </span>
+      </span> */}
     </header>
   );
 };
